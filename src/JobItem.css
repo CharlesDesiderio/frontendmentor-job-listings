@@ -1,0 +1,187 @@
+h1 {
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.jobItem {
+    position: relative;
+    width: 1115px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 15px -2px hsl(180, 29%, 50%);
+    height: 150px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    body {
+        font-size: 12px !important;
+    }
+
+    h1 {
+        font-size: 15px !important;
+    }
+
+    .companyName {
+        font-size: 12px !important;
+    }
+
+    .info {
+        margin-left: 0;
+        width: 290px;
+    }
+
+    .jobItem {
+        width: 330px;
+        max-width: 330px;
+        flex-direction: column;
+        height: 225px;
+        margin-top: 40px;
+    }
+
+    .details {
+        position: relative;
+    }
+
+    .image {
+        position: absolute;
+        left: -5px;
+        top: -55px;
+    }
+
+    .image img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .tags {
+        margin: 20px !important;
+        border-top: 1px solid gray;
+        padding-top: 8px;
+    }
+
+    .tags ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tags ul li {
+        margin-top: 8px;
+    }
+
+
+    .details {
+        width: 330px;
+    }
+
+    .tagsLeft {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20px !important;
+        padding: 10px !important;
+    }
+
+    .tagSpan {
+        display: inline-block;
+        margin: 10px !important;
+    }
+
+    .mappedJobs {
+        top: -30px !important;
+    }
+
+}
+
+.jobItem:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image {
+    margin: 30px 25px 20px 35px;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.companyName {
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+}
+
+.tags {
+    margin: 55px 30px 55px 0px;
+}
+
+.tags ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tags li {
+    margin-right: 15px;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 31%, 95%);
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.tags li:hover {
+    color: hsl(180, 31%, 95%);
+    background-color: hsl(180, 29%, 50%);
+    transition: .2s;
+}
+
+.postDate, .contract, .location {
+    color: hsl(180, 8%, 52%);
+}
+
+.contract:before, .location:before {
+    content: "•";
+    margin: 15px;
+}
+
+.new, .featured {
+    color: white;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 8px 8px 6px 8px;
+    margin: .25rem;
+    font-weight: 500;
+    height: 25px;
+}
+
+.featured {
+    background-color: hsl(180, 14%, 20%);
+}
+
+.new {
+    background-color: hsl(180, 29%, 50%);
+    margin-left: 15px;
+}
+
+#featured {
+    border-left: 7px solid hsl(180, 29%, 50%);
+}

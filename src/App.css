@@ -1,38 +1,105 @@
+body {
+    background-color: hsl(180, 52%, 96%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0px;
+}
+
 .App {
-  text-align: center;
+    padding-bottom: 75px;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mappedJobs {
+    position: relative;
+    top: -50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerImage {
+    position: relative;
+    top: 0;
+    height: 155px;
+    margin-bottom: 75px;
+    margin-top: 0;
+    width: 100%;
+    background-color: hsl(180, 29%, 50%);
+    background-image: url("/images/bg-header-desktop.svg");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.selectedOuter {
+    position: relative;
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    top: -110px;
 }
 
-.App-link {
-  color: #61dafb;
+.selectedTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 1110px;
+    min-height: 75px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 15px -2px hsl(180, 18%, 22%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 375px) {
+    .selectedTags {
+        width: 330px;
+    }
+}
+
+.tagsLeft {
+    margin-left: 40px;
+    
+}
+
+.tagsRight {
+    line-height: 75px;
+    margin-right: 40px;
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+}
+
+.clearButton {
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+}
+
+.clearButton:hover {
+    text-decoration: underline;
+}
+
+.tagSpan {
+    display: inline-block;
+    margin-top: 21px;
+    padding-left: 8px;
+    margin-right: 16px;
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+    border-radius: 5px 0 0 5px;
+    background-color: hsl(180, 31%, 95%);
+    height: 33px;
+}
+
+.tagSpan:hover .tagXButton {
+    background-color: hsl(180, 18%, 22%);
+}
+
+.tagXButton {
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    margin-left: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    height: 33px;
+    width: 33px;
+    border-radius: 0 5px 5px 0;
 }
