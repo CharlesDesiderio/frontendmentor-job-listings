@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontendmentor-job-listings/static/css/main.534988a0.chunk.css",
+    "main.js": "/frontendmentor-job-listings/static/js/main.61e4088d.chunk.js",
+    "main.js.map": "/frontendmentor-job-listings/static/js/main.61e4088d.chunk.js.map",
+    "runtime-main.js": "/frontendmentor-job-listings/static/js/runtime-main.daf35c2c.js",
+    "runtime-main.js.map": "/frontendmentor-job-listings/static/js/runtime-main.daf35c2c.js.map",
+    "static/js/2.a3dc07e6.chunk.js": "/frontendmentor-job-listings/static/js/2.a3dc07e6.chunk.js",
+    "static/js/2.a3dc07e6.chunk.js.map": "/frontendmentor-job-listings/static/js/2.a3dc07e6.chunk.js.map",
+    "index.html": "/frontendmentor-job-listings/index.html",
+    "precache-manifest.74fc9b8b9b8acb739a89d2e8f6a00d2e.js": "/frontendmentor-job-listings/precache-manifest.74fc9b8b9b8acb739a89d2e8f6a00d2e.js",
+    "service-worker.js": "/frontendmentor-job-listings/service-worker.js",
+    "static/css/main.534988a0.chunk.css.map": "/frontendmentor-job-listings/static/css/main.534988a0.chunk.css.map",
+    "static/js/2.a3dc07e6.chunk.js.LICENSE.txt": "/frontendmentor-job-listings/static/js/2.a3dc07e6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daf35c2c.js",
+    "static/js/2.a3dc07e6.chunk.js",
+    "static/css/main.534988a0.chunk.css",
+    "static/js/main.61e4088d.chunk.js"
+  ]
+}
